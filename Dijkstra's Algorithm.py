@@ -1,6 +1,3 @@
-Dijkstra's algorithm can be implemented in Python to find the shortest path from a source vertex to all other vertices in a weighted graph. Below is a Python implementation of Dijkstra's algorithm using an adjacency list representation:
-
-```python
 import heapq
 
 class Graph:
@@ -52,6 +49,3 @@ g.add_edge(3, 4, 3)
 
 source = 0
 g.dijkstra(source)
-```
-
-In this Python implementation, we create a `Graph` class with methods to add edges and perform Dijkstra's algorithm to find the shortest paths. You can modify the edges and weights by calling the `add_edge` method and change the `source` variable to specify the source vertex from which you want to find the shortest paths. The program will print the shortest distances from the source vertex to all other vertices.
